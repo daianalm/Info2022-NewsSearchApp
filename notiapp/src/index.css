@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #e5abeb;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cargando {
+  margin: 10px;
+  color: #ffffff;
+}
+
+.box, .about {
+  background-color: #131618;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #131618;
+  border-radius: .5rem;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+.about {
+  margin: 50px;
+  width: 50%;
+}
+
+.about .title {
+  text-align: center;
+}
+
+.about .title h1 {
+  font-size: 24pt;
+}
+
+.total-resultados {
+  padding: 0px 20px 0px 10px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.paginacion {
+  margin: 50px 0px 50px 0px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10px 30px 10px 30px;
+  background-color: #212529;
+  color: white;
+  text-align: left;
+}
+
+.footer .contact, .legal, .social, .world {
+  list-style: none;
+  padding: 0;
+  margin: 0px 0px 0px 20px;
+}
+
+.footer .copyright, .separator, .developedBy {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.footer .copyright {
+  text-align: right;
+}
+
+.footer .separator {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.footer .developedBy {
+  text-align: left;
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
